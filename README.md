@@ -6,6 +6,9 @@ Apriori Algorithm: Used for association analysis to uncover frequent itemsets am
 
 ### Tools & Techniques: Python (Pandas, NumPy, Matplotlib, mlxtend), Apriori Algorithm, Association Rule Mining, Jupyter Notebook.
 
+### Data Preparation for Analysis
+Focus on Relevant Data: The analysis centers on the "country" column, which specifies the countries where movies are available.
+
 ### Evaluation Metrics:
 Lift: Measures the strength of associations between countries in terms of movie releases.
 
