@@ -8,14 +8,20 @@ Apriori Algorithm: Used for association analysis to uncover frequent itemsets am
 
 ### Evaluation Metrics:
 Lift: Measures the strength of associations between countries in terms of movie releases.
+
 Parameter Settings:
+
 Min Support (min_support): Set to 0.0065, meaning only itemsets that appear in at least 0.65% of the rows are considered frequent. This filters out low-frequency or rare itemsets.
+
 Min Confidence Threshold (min_threshold): Set to 0.05, filtering out association rules with low confidence.
 
 ### Conclusion:
 US Dominates Content: A large number of movies on Netflix are released in the United States, showing it as a key movie market.
+
 Multi-Country Releases: Some movies are released in multiple countries simultaneously, such as "United States and United Kingdom" or "United States and Canada," reflecting Netflix's strong global presence.
+
 Strong US-UK Connection: The United States and United Kingdom often appear together in release combinations, indicating collaboration or similar audience preferences in these two countries.
+
 Most Rules Have Limited Impact: While some interesting association rules were found, most have low support and confidence, meaning they may be coincidental rather than strong patterns.
 
 ### Output and explination:
