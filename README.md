@@ -2,23 +2,23 @@
 The project aims to provide valuable insights into Netflix's content. 
 Apriori Algorithm: Used for association analysis to uncover frequent itemsets among movie release countries.
 
-Data Sourcehttps://www.kaggle.com/datasets/shivamb/netflix-shows
+### Data Source: https://www.kaggle.com/datasets/shivamb/netflix-shows
 
-Tools & Techniques: Python (Pandas, NumPy, Matplotlib, mlxtend), Apriori Algorithm, Association Rule Mining, Jupyter Notebook.
+### Tools & Techniques: Python (Pandas, NumPy, Matplotlib, mlxtend), Apriori Algorithm, Association Rule Mining, Jupyter Notebook.
 
-Evaluation Metrics:
+### Evaluation Metrics:
 Lift: Measures the strength of associations between countries in terms of movie releases.
 Parameter Settings:
 Min Support (min_support): Set to 0.0065, meaning only itemsets that appear in at least 0.65% of the rows are considered frequent. This filters out low-frequency or rare itemsets.
 Min Confidence Threshold (min_threshold): Set to 0.05, filtering out association rules with low confidence.
 
-Conclusions:
+### Conclusion:
 US Dominates Content: A large number of movies on Netflix are released in the United States, showing it as a key movie market.
 Multi-Country Releases: Some movies are released in multiple countries simultaneously, such as "United States and United Kingdom" or "United States and Canada," reflecting Netflix's strong global presence.
 Strong US-UK Connection: The United States and United Kingdom often appear together in release combinations, indicating collaboration or similar audience preferences in these two countries.
 Most Rules Have Limited Impact: While some interesting association rules were found, most have low support and confidence, meaning they may be coincidental rather than strong patterns.
 
-Output and explination:
+### Output and explination:
 ![output_2_1](https://github.com/user-attachments/assets/94ba4406-dd75-48dc-ac40-fb08de3a2501)
 I set the min_support to 0.0065, which means that only itemsets that appear in at least 0.65% of the rows are considered frequent. This helps filter out low-frequency or rare itemsets. At the same time, I set the min_threshold to 0.05, filtering out association rules with low confidence. The country with the highest support value is "United States," which indicates that a significant number of movies on Netflix are released in the United States. Some frequent itemsets involve multiple countries, such as "United Kingdom, United States" and "Canada, United States." This suggests that there are movies frequently released in multiple countries, indicating Netflix's international presence. "United Kingdom" and "United States" frequently appear together in the same itemset, indicating that there might be regional preferences or collaborations in movie releases between these two countries.
 
